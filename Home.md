@@ -1,7 +1,4 @@
 
-Gourd 0.2 Beta 2023
-===============
-
 Gourd is a Golang rapid development framework.
 
 ## 框架由来
