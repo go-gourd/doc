@@ -1,10 +1,5 @@
 
-Go-Gourd 是一个由事件驱动的快速开发框架，高度集成且灵活易用。
-
-## 框架由来
-我正在学习Golang，是一名PHP开发者，学习过程中发现Go在很多地方对于php开发习惯很不友好。  
-为了从PHP更快上手Golang，我决定一边学习，一边构建一个自己用得惯的框架（代码结构）。  
-也希望能够帮到正在学习Golang的同学。
+Go-Gourd 是一个由事件驱动的快速开发框架，轻量、高效、易用。
 
 ## 主要特性
 * 开箱即用
@@ -15,13 +10,13 @@ Go-Gourd 是一个由事件驱动的快速开发框架，高度集成且灵活�
 * 日志工具
 
 ## 快速开始
-使用git下载
+使用git clone下载示例项目
 
 ```bash
 git clone https://github.com/go-gourd/gourd-app.git
 ```
 
-下载依赖
+下载依赖项
 ```bash
 go mod tidy
 ```
@@ -33,20 +28,18 @@ go run main.go
 
 等待控制台输出
 ```text
-   _____                     _ 
-  / ____|                   | |  Go       go1.20
- | |  __  ___  _   _ _ __ __| |  Gourd    v0.2.7 (9)
- | | |_ |/ _ \| | | | '__/ _` |  Gin      v1.8.2
- | |__| | (_) | |_| | | | (_| |  Public   ./public
-  \_____|\___/ \__,_|_|  \__,_|  Temp Dir ./runtime
---------------------------------------------------------
-{"level":"info","time":"2023-02 *","msg":"Started http server. :8888"}
+   _____                     _
+  / ____|                   | |  Go       go1.21.1
+ | |  __  ___  _   _ _ __ __| |  App      v1.1.0 (105)
+ | | |_ |/ _ \| | | | '__/ _` |  Public   ./web/static
+ | |__| | (_) | |_| | | | (_| |  Temp Dir ./runtime
+  \_____|\___/ \__,_|_|  \__,_|  Log Dir  ./runtime/log
 ```
 运行成功，使用浏览器访问`http://localhsot:8888/`
 
 ## 参考文档
 
-https://github.com/go-gourd/gourd-app/wiki
+https://github.com/go-gourd/gourd/wiki
 
 ## 参与开发
 
